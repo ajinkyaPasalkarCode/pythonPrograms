@@ -1,6 +1,6 @@
 class AssignmentNo48:
     def getcharFrequencycount(self,input_string):
-        frequency={}
+        frequency={}                 # Dictionary used key and value
         for ch in input_string:
             if ch in frequency:
                 frequency[ch]+=1
