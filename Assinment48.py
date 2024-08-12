@@ -15,7 +15,7 @@ a -> 4
 """
 
 
-class AssignmentNo48:
+class Assignment48:
     def getcharFrequencycount(self,input_string):
         frequency={}                 # Dictionary used key and value
         for ch in input_string:
@@ -25,5 +25,5 @@ class AssignmentNo48:
                 frequency[ch]=1
         for char in input_string:
             print(f"{char}->{frequency[char]}")
-a=AssignmentNo48()
+a=Assignment48()
 a.getcharFrequencycount("aakanksha")
