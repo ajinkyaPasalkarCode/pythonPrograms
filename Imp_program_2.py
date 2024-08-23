@@ -16,7 +16,6 @@ class Imp_program_2:
                 dublicate.append(ele)
         print(dublicate)
 
-#inp_array=int(input("Enter the array elements"))
-#print(inp_array)
+
 a=Imp_program_2()
 a.getDuplicate([1,2,3,8,12,1,8])
