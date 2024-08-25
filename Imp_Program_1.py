@@ -23,7 +23,7 @@ num1=[]
 for i in range(elements):
     array_ele = input(f"Enter the Elements: ")
     num1.append(array_ele)
-    
+
 a=Imp_Program()
 arr_num=a.getFrequency(num1)
 a.display(arr_num)
